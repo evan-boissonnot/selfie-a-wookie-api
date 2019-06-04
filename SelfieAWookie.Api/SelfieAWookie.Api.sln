@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookie.Api.Web.UI", "SelfieAWookie.Api.Web.UI\SelfieAWookie.Api.Web.UI.csproj", "{2B328A20-D3E5-4EF7-8E16-E38E2CC4A046}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{241C70AA-D967-48A8-A949-8246CEDEDB2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfieAWookie.Api.Core.Models", "SelfieAWookie.Api.Core.Models\SelfieAWookie.Api.Core.Models.csproj", "{7F4FD9FB-E8F0-4012-9CDA-7B96DA1E64E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{2B328A20-D3E5-4EF7-8E16-E38E2CC4A046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B328A20-D3E5-4EF7-8E16-E38E2CC4A046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B328A20-D3E5-4EF7-8E16-E38E2CC4A046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4FD9FB-E8F0-4012-9CDA-7B96DA1E64E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4FD9FB-E8F0-4012-9CDA-7B96DA1E64E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4FD9FB-E8F0-4012-9CDA-7B96DA1E64E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4FD9FB-E8F0-4012-9CDA-7B96DA1E64E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F4FD9FB-E8F0-4012-9CDA-7B96DA1E64E1} = {241C70AA-D967-48A8-A949-8246CEDEDB2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EBCC660-8645-44D4-92BF-1CBF5F25214B}
