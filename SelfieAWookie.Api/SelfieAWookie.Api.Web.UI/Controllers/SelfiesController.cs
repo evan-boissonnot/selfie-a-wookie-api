@@ -22,7 +22,7 @@ namespace SelfieAWookie.Api.Web.UI.Controllers
                 Id = 1,
                 Date = DateTime.Now,
                 Wookie = new Wookie() { Id = 1, Size = 300, Surname = "Chewie" },
-                Image = new Image() { Id = 1, Title = "Hey chewie !", Url = "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwijh4LP1NDiAhVHzhoKHRCgC8UQjRx6BAgBEAU&url=https%3A%2F%2Fstarwars.fandom.com%2Ffr%2Fwiki%2FWookiee%2FL%25C3%25A9gendes&psig=AOvVaw2la6ZQnJYQL2-0JiexivR3&ust=1559766356228146" },
+                Image = new Image() { Id = 1, Title = "Hey chewie !", Url = "https://vignette.wikia.nocookie.net/fr.starwars/images/6/6f/Wookiee_Female_SOC.jpg/revision/latest/scale-to-width-down/200?cb=20180818152151" },
                 Comments = new List<Comment>() {
                     new Comment() { Id = 1, Date = DateTime.Now, Content = "Oh un commentaire", Wookie = new Wookie() { Id = 1, Size = 300, Surname = "Chewie" } },
                     new Comment() { Id = 2, Date = DateTime.Now.AddDays(-2), Content = "Sympa la photo", Wookie = new Wookie() { Id = 2, Size = 200, Surname = "Chewie 2" } } }
